@@ -1,0 +1,64 @@
+nav{
+	background-color: transparent;
+}
+
+nav .brand-logo{
+	color: #0de2e2;
+}
+
+nav ul a{
+	color: #0de2e2;
+}
+
+h2{
+	color: #011d3d;
+}
+
+a{
+	color: #0de2e2; 
+}
+
+.container{
+	padding: 2%;
+	width: 100%;
+}
+
+.general{
+	font-family: "Lato", sans-serif;
+	padding: 2%;
+	font-size: large;
+	line-height: 2em;
+	text-align: justify;	
+}
+
+.cen{
+    text-align: center;
+}
+
+.acmLogo{
+    width: 100%;
+    padding: 10%;
+}
+
+.eventLogos{
+    width: 100%;
+    padding: 5%;	
+}
+
+.teamLogos{
+    width: 100%;
+    padding: 5%;	
+}
+
+.copyrightPrint{
+	background-color: #000000;
+}
+
+.copyright{
+	color: #FFFFFF;
+	font-family: "Lato", sans-serif;
+	padding: 2%;
+	font-size: large;
+	line-height: 2em;
+	text-align: justify;	
+}
