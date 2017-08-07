@@ -9,16 +9,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <meta http-equiv="pragma" content="no-cache" />
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"></script>
   <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel='stylesheet prefetch' href='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/css/demo.css'>
-  <link rel="stylesheet" href="css/style.css"> 
-  <link rel="stylesheet" href="css/indexStyle.css">  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/indexStyle.css">
+  <script>
+    $(document).ready(function() {
+
+  setTimeout(function(){
+      $('body').addClass('loaded');
+  }, 3000);
+  });
+    </script>
 </head>
 
 <body>
+   <div id="content"></div> <!-- A blank one -->
+   <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+   </div>
+
 
   <div id="large-header" class="large-header">
 
@@ -36,7 +54,7 @@
           <ul class="side-nav" id="mobile-demo">
             <li><a href="#about"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;ABOUT</a></li>
             <li><a href="#events"><i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;&nbsp;EVENTS</a></li>
-            <li><a href="#team"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;TEAM</a></li>  
+            <li><a href="#team"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;TEAM</a></li>
             <li><a href="#contact"><i class="fa fa-address-book" aria-hidden="true"></i>&nbsp;&nbsp;CONTACT</a></li>
           </ul>
         </div>
@@ -51,110 +69,110 @@
 
     <section id="about">
       <div class="row">
-        <div class="col s12 m12 l12"> 
+        <div class="col s12 m12 l12">
           <h2><center>SO What Do We Do ?</center></h2>
-        </div>  
-      </div> 
+        </div>
+      </div>
       <div class="row">
         <div class="col s12 m6 l6">
           <p class="general">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-          </p> 
+          </p>
         </div>
-        <div class="col s12 m6 l6"> 
+        <div class="col s12 m6 l6">
           <img class="acmLogo" src="images/Adzap.png">
-        </div>        
-      </div> 
+        </div>
+      </div>
       <div class="row">
         <div class="col s12 m6 l6">
           <p class="general">
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. 
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
           </p>
         </div>
         <div class="col s12 m6 l6">
           <p class="general">
            Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
            <br>
-           <a href="#">Know More...</a>         
+           <a href="#">Know More...</a>
          </p>
-       </div>        
-     </div>       
-   </section>  
+       </div>
+     </div>
+   </section>
 
   <section id="events">
 
     <div class="row">
-      <div class="col s12 m12 l12"> 
+      <div class="col s12 m12 l12">
         <h2><center>Here's Our Calender</center></h2>
-      </div>  
+      </div>
     </div>
 
     <div class="row">
       <div class="col s12 m4 l4">
         <h3><center>Inauguration</center></h3>
         <p class="general">
-          SVCE ACM Chapters 
-          15th May, 2017  
+          SVCE ACM Chapters
+          15th May, 2017
         </p>
       </div>
-      <div class="col s12 m4 l4"> 
+      <div class="col s12 m4 l4">
         <img class="eventLogos" src="images/Cricket.png">
-      </div> 
+      </div>
       <div class="col s12 m4 l4">
         <p class="general">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           <br>
-          <a href="#">Know More...</a>        
-        </p> 
-      </div>       
-    </div> 
+          <a href="#">Know More...</a>
+        </p>
+      </div>
+    </div>
 
     <div class="row">
       <div class="col s12 m4 l4">
         <h3><center>Placement Training</center></h3>
         <p class="general">
           A short workshop to help boost placements.
-          15th June, 2017  
+          15th June, 2017
         </p>
       </div>
-      <div class="col s12 m4 l4"> 
+      <div class="col s12 m4 l4">
         <img class="eventLogos" src="images/SpyMe.png">
-      </div> 
+      </div>
       <div class="col s12 m4 l4">
         <p class="general">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           <br>
-          <a href="#">Know More...</a>        
-        </p> 
-      </div>       
-    </div> 
+          <a href="#">Know More...</a>
+        </p>
+      </div>
+    </div>
 
     <div class="row">
       <div class="col s12 m4 l4">
         <h3><center>Coming Soon</center></h3>
         <p class="general">
           This one will be better than the last.
-          15th December, 2030  
+          15th December, 2030
         </p>
       </div>
-      <div class="col s12 m4 l4"> 
+      <div class="col s12 m4 l4">
         <img class="eventLogos" src="images/Shipwrech.png">
-      </div> 
+      </div>
       <div class="col s12 m4 l4">
         <p class="general">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           <br>
           <a href="#">Know More...</a>
-        </p> 
-      </div>       
-    </div> 
-  </section>  
+        </p>
+      </div>
+    </div>
+  </section>
 
   <section id="team">
     <div class="row">
-      <div class="col s12 m12 l12"> 
+      <div class="col s12 m12 l12">
         <h2><center>Know Who Made Us What We Are</center></h2>
-      </div>  
+      </div>
     </div>
 
     <div class="row">
@@ -168,33 +186,33 @@
         </p>
       </div>
       <div class="col s12 m4 l4">
-        <h3><center>Leaders</center></h3> 
+        <h3><center>Leaders</center></h3>
         <img class="teamLogos" src="images/Shipwrech.png">
         <p class="general">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
           <br>
           <a href="#">Know More...</a>
         </p>
-      </div> 
+      </div>
       <div class="col s12 m4 l4">
-        <h3><center>Rest of Team</center></h3> 
+        <h3><center>Rest of Team</center></h3>
         <img class="teamLogos" src="images/Quiz.png">
         <p class="general">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
           <br>
           <a href="#">Know More...</a>
         </p>
-      </div>       
-    </div> 
+      </div>
+    </div>
 
   </section>
 
   <section id="contact">
 
     <div class="row">
-      <div class="col s12 m12 l12"> 
+      <div class="col s12 m12 l12">
         <h2><center>Get In Touch With Us</center></h2>
-      </div>  
+      </div>
     </div>
 
     <div class="row">
@@ -215,7 +233,7 @@
         <p class="general">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
         </p>
-      </div>        
+      </div>
     </div>
 
     <div class="row">
@@ -229,21 +247,21 @@
         <i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i>
         <p class="general cen">
           <a href="#">Twitter</a>
-        </p>            
+        </p>
       </div>
       <div class="col s12 m3 l3">
         <i class="fa fa-mobile fa-4x" aria-hidden="true"></i>
         <p class="general cen">
           <a href="#">+919876543210 <br> Lax</a>
-        </p>            
+        </p>
       </div>
       <div class="col s12 m3 l3">
         <i class="fa fa-envelope fa-4x" aria-hidden="true"></i>
         <p class="general cen">
           <a href="#">E-mail <br> Lax@gmail.com</a>
-        </p>            
-      </div>                        
-    </div>      
+        </p>
+      </div>
+    </div>
 
     <form class="col s12" action='#'>
       <div class="row">
@@ -262,22 +280,22 @@
           <i class="material-icons prefix">local_phone</i>
           <input id="phone" type="tel" class="validate">
           <label for="phone">Phone Number</label>
-        </div>           
+        </div>
       </div>
       <div class="row">
         <div class="input-field col s12 m6 l6 offset-m3 offset-l3">
           <i class="material-icons prefix">email</i>
           <input id="email" type="email" class="validate">
           <label for="email">Email</label>
-        </div>         
-      </div> 
+        </div>
+      </div>
       <div class="row">
         <div class="input-field col s12 m6 l6 offset-m3 offset-l3">
           <i class="material-icons prefix">message</i>
           <textarea id="textarea1" class="materialize-textarea"></textarea>
           <label for="textarea1">Textarea</label>
         </div>
-      </div>                
+      </div>
     </form>
   </section>
 
@@ -294,13 +312,13 @@
       <p class="copyright">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       </p>
-    </div> 
-  </div> 
+    </div>
+  </div>
 </section>
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
@@ -314,7 +332,7 @@
 <script type="text/javascript">
 
 
-</script> 
+</script>
 
 </body>
 </html>
