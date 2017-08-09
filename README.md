@@ -1,2 +1,2 @@
-# AcmSvceWebsite
-The ACM SVCE Website.
+
+The SVCE-ACM Website.
