@@ -1,5 +1,5 @@
 nav{
-	background-color: transparent;
+	background-color: #011d3d;
 }
 
 nav .brand-logo{
@@ -25,7 +25,7 @@ a{
 
 .general{
 	font-family: "Lato", sans-serif;
-	padding: 2%;
+	
 	font-size: large;
 	line-height: 2em;
 	text-align: justify;	
@@ -50,15 +50,23 @@ a{
     padding: 5%;	
 }
 
+.members {
+	padding: 10%;
+}
+
 .copyrightPrint{
-	background-color: #000000;
+	background-color: #011d3d;
 }
 
 .copyright{
-	color: #FFFFFF;
+	color: #0de2e2;
 	font-family: "Lato", sans-serif;
 	padding: 2%;
 	font-size: large;
 	line-height: 2em;
 	text-align: justify;	
+}
+
+#acmSVCE {
+	width: 27%;
 }
