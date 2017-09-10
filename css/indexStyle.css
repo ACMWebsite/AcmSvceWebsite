@@ -7,7 +7,8 @@ nav .brand-logo{
 }
 
 nav ul a{
-	color: #0de2e2;
+	/*color: #0de2e2;*/
+	color:#fff;
 }
 
 h2{
@@ -15,7 +16,7 @@ h2{
 }
 
 a{
-	color: #0de2e2; 
+	color: #0de2e2;
 }
 
 .container{
@@ -25,10 +26,10 @@ a{
 
 .general{
 	font-family: "Lato", sans-serif;
-	
+
 	font-size: large;
 	line-height: 2em;
-	text-align: justify;	
+	text-align: justify;
 }
 
 .cen{
@@ -42,12 +43,12 @@ a{
 
 .eventLogos{
     width: 100%;
-    padding: 5%;	
+    padding: 5%;
 }
 
 .teamLogos{
     width: 100%;
-    padding: 5%;	
+    padding: 5%;
 }
 
 .members {
@@ -59,14 +60,16 @@ a{
 }
 
 .copyright{
-	color: #0de2e2;
+	color: #fff;
 	font-family: "Lato", sans-serif;
 	padding: 2%;
 	font-size: large;
 	line-height: 2em;
-	text-align: justify;	
+	text-align: justify;
 }
 
 #acmSVCE {
-	width: 27%;
+	width: 100%;
+	max-height: 60px;
+	height: auto;
 }
