@@ -1,0 +1,161 @@
+/*Colors*/
+
+.lightBlue {
+	background-color: #1E88E5;
+}
+
+.darkBlue {
+	background-color: #001C3A;
+}
+
+/*Fonts*/
+@font-face
+{
+    font-family: NexaRustSans;
+    src: url('fonts/NexaRustSans-Black.otf');
+    NexaRustScriptL-0.otf
+}
+
+@font-face
+{
+    font-family: GoodDog;
+    src: url('fonts/GoodDog.otf');
+}
+
+.defaultFont {
+    font-family: 'Roboto';
+}
+
+.nexaRust {
+    font-family: 'NexaRustSans';
+    color: #001C3A;
+}
+
+.goodDog {
+    font-family: 'GoodDog';
+    color: #0D4E85;
+}
+
+/*Navbar*/
+.brand-logo {
+    font-weight: bold;
+}
+
+.nav-special-effect:hover {
+    background-color: #1976D2;
+    color: white !important;
+    text-decoration: underline;
+    border-radius: 25%;
+}
+
+#navbar {
+    box-shadow: none;
+}
+
+/*Text CSS*/
+
+.intro {
+    padding: 1.5em;
+}
+
+.home-text {
+    padding: 0 2rem;
+}
+
+.title {
+    font-size: 10em;
+}
+
+.email-id {
+    color: #1976D2;
+    font-size: 1.5em;
+}
+
+.phone-number {
+    color: #135099;
+    font-size: 1.5em;
+}
+
+.location a{
+    color: #0D4E85 !important;
+}
+
+/*Body*/
+
+body {
+    background: white;
+}
+
+/*Images*/
+.multi-shadow {
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.acmLogo {
+    width: 20%;
+}
+
+/*Registration Page*/
+.input-field input:focus {
+    border-bottom: 1px solid #1976D2 !important;
+    box-shadow: 0 1px 0 0 #1976D2 !important;
+}
+
+.input-field input:focus + label {
+    color: #1976D2 !important;
+}
+
+.input-field .prefix {
+    width: auto;
+    font-size: 2.5rem;
+}
+
+.background-icon {
+    background: #1976D2;
+    text-align: center;
+    padding: 2px;
+}
+
+/*Mobile*/
+@media screen and (max-width: 720px){
+    .title {
+        font-size: 9em;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .title {
+        font-size: 8em;
+    }
+}
+
+@media screen and (max-width: 580px){
+    nav .brand-logo {
+        font-size: 1.3em;
+    }
+    .title {
+        font-size: 7em;
+    }
+    .acmLogo {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .title {
+        font-size: 5em;
+    }
+    .acmLogo {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .title {
+        font-size: 3.5em;
+    }
+    .nexaScript {
+        font-size: 2.5em;
+    }
+}
