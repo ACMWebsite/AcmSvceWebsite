@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>SVCE ACM Student Chapter - Home</title>
+  <link rel="icon" href="favicon.ico">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta http-equiv="pragma" content="no-cache" />
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet prefetch' href='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/css/demo.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/indexStyle.css">
+  <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function() {
+
+      var $toastContent = $('<span>New Event! <br>Hackathon! <br> Check Upcoming Events to Know more!</span>').add($('<button style="color:red"class="btn-flat toast-action">Signup</button>'));
+      Materialize.toast($toastContent, 3000,'rounded');
+    })
+  </script>
+</head>
+
+<body>
+
+
+
+  <div id="large-header" class="large-header">
+
+    <div class="navbar-fixed" id="homeScreen">
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#homeScreen" class="brand-logo">&nbsp;&nbsp;
+          <img src="images/ACM2.png" id="acmSVCE"></a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#about"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;ABOUT</a></li>
+            <li><a href="#events"><i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;&nbsp;EVENTS</a></li>
+            <li><a href="#team"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;TEAM</a></li>
+            <li><a href="#contact"><i class="fa fa-address-book" aria-hidden="true"></i>&nbsp;&nbsp;CONTACT</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="#about"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;ABOUT</a></li>
+            <li><a href="#events"><i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;&nbsp;EVENTS</a></li>
+            <li><a href="#team"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;TEAM</a></li>
+            <li><a href="#contact"><i class="fa fa-address-book" aria-hidden="true"></i>&nbsp;&nbsp;CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <canvas id="demo-canvas"></canvas>
+    <!--
+    <h1 class="main-title">SVCE <br> <span class="thin">ACM CHAPTER</span></h1>
+    -->
+  </div>
+
+  <div class="container">
+
+    <section id="about">
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <h2><center><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;So What Do We Do ?</center></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 l6">
+          <p class="general">
+            1947 is a very special year, not just to Indians, but to people living in every nook and corner of the world. It was the year when ACM (Association for Computing Machinery) was founded. ACM Student Chapters have been established in various institutions
+            across the world since then. SVCE's ACM Student Chapter is one of the most well reputed associations both within and outside of the institution.Although it wasn't a part of the college when the college was first founded, it is now a permanent
+            and integral part of SVCE which has achieved great acclaim and laurels throughout the years it has been active. Even though we are quite few in number, we strongly believe that quality is more important than quantity.
+          </p>
+        </div>
+        <div class="col s12 m6 l6">
+          <img class="acmLogo" src="images/web1.png">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <p class="general">
+            Organizing technical events intertwined with loads of fun filled challenges is our forte. Our wide variety of events boost both 'competing by learning' as well as 'learning by competing'! Participating in our events helps you take a step towards success,
+            and thereby guides you to make your path towards success an interesting one rather than a difficult one. Things cannot get better than this!'
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="events">
+
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <h2><center><i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;&nbsp;Upcoming Events</center></h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m4 l4">
+          <h3><center>Hackathon</center></h3>
+          <p class="general">
+            <center>
+              22<sup>th</sup>-23<sup>th</sup> sept, 2017
+            </center>
+          </p>
+        </div>
+        <div class="col s12 m4 l4">
+          <img class="eventLogos" src="images/x.jpg">
+        </div>
+        <div class="col s12 m4 l4">
+          <p class="general">
+          H.A.C.C. is a 24 hour hackathon where the brightest minds and innovative souls come together to create solutions to real problems. Held at Sri Venkateswara College of Engineering and conducted by ACM Student Chapter - SVCE, this year we aim to be bigger and better than ever.
+            <br>
+            <a href="Hack/index.html" style="color:red">Know More.</a>
+          </p>
+        </div>
+      </div>
+
+    </section>
+    <section id="events">
+
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <h2><center><i class="fa fa-trophy" aria-hidden="true"></i>&nbsp;&nbsp;Events</center></h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m4 l4">
+          <h3><center>Inauguration</center></h3>
+          <p class="general">
+            <center>
+              25<sup>th</sup> July, 2017
+            </center>
+          </p>
+        </div>
+        <div class="col s12 m4 l4">
+          <img class="eventLogos" src="images/InaugurationFront.JPG">
+        </div>
+        <div class="col s12 m4 l4">
+          <p class="general">
+            The 25th of July, 2017, marked the inauguration of the ACM SVCE Student Chapter for the academic year 2017 - 2018. The Chief Guest for the event was Mr Rajesh Padmanabhan, Founder and CEO of NFN Labs, who enthused the audience with a realistic but motivating
+            outlook on life, technology and entrepreneurial spirit. Additionally, the members of last year's chapter were felicitated and were encouraged to continue working with the current chapter.
+            <br>
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m4 l4">
+          <h3><center>Game Of Codes</center></h3>
+          <p class="general">
+            <center>
+              4<sup>th</sup> August, 2017
+            </center>
+          </p>
+        </div>
+        <div class="col s12 m4 l4">
+          <img class="eventLogos" src="images/GameofCodesFront.JPG">
+        </div>
+        <div class="col s12 m4 l4">
+          <p class="general">
+            The aim was to provide student-sourced guidance to other students on attaining maximum success in placement interviews. The event kick started with a mock coding round, followed by an interactive session where students who had already been offered jobs
+            at companies such as Dell shared their valuable experience in interviews and answers to commonly asked programming questions. The event was a success, with each participant getting a confidence boost!
+            <br>
+          </p>
+        </div>
+      </div>
+
+
+    </section>
+
+    <section id="team">
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <h2><center><i class="fa fa-users" aria-hidden="true"></i>&nbsp;&nbsp;Know Who Made Us What We Are</center></h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m6 l6">
+          <br>
+          <img class="teamLogos" src="images/FounderFront.jpg">
+        </div>
+        <div class="col s12 m6 l6">
+          <h3><center>Founder</center></h3>
+
+          <p class="general">
+            Currently a second year Ph.D. student at University of Montreal, Sharat Chandar was part of the class of 2012 of the Department of CSE, SVCE. Under the guidance of Dr.Susan Elias, former Head of Department (CSE), Sharat formed and the SVCE-ACM Student
+            Chapter and was instrumental in getting the chapter officially chartered by ACM New York on 26th August 2011. He served as the Chairman of the chapter for the year 2011-12 and one of his major accomplishments include successfully organizing
+            the National Level Programming Contest (NLPC), a nation-wide coding contest, during the year 2011.Before joining University of Montreal, Sharat was a Research Software Engineer at IBM India Research Lab between the period August 2014 - May
+            2015. Sharat did his MS by Research at Indian Institute of Technology Madras where he was working with Dr.Balaraman Ravindran.<br><a href="http://www.sarathchandar.in/">Know More ..</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m6 l6">
+          <h3><center>Office Bearers</center></h3>
+          <img class="teamLogos" src="images/OfficeBearersFront.JPG">
+        </div>
+        <div class="col s12 m6 l6">
+          <h3><center>Rest of Team</center></h3>
+          <img class="teamLogos" src="images/RestOfTeamFront.JPG">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <p class="general">
+            Take a closer look at who each one of us are
+            <a href="officeBearers.html">Know More...</a>
+          </p>
+        </div>
+      </div>
+
+
+    </section>
+
+    <section id="contact">
+
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <h2><center>Get In Touch With Us</center></h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m4 l4">
+          <i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i>
+          <p class="general cen">
+            <a href="https://www.facebook.com/SVCEACM/">Facebook</a>
+          </p>
+        </div>
+        <div class="col s12 m4 l4">
+          <i class="fa fa-mobile fa-4x" aria-hidden="true"></i>
+          <p class="general cen">
+            +917010118142<br> Laksh Khanter<br> Chairman ACM SVCE Chapters
+          </p>
+        </div>
+        <div class="col s12 m4 l4">
+          <i class="fa fa-envelope fa-4x" aria-hidden="true"></i>
+          <p class="general cen">
+            E-mail<br> acm.svcecse@gmail.com
+          </p>
+        </div>
+      </div>
+  </div>
+
+  <section class="copyrightPrint">
+    <div class="row">
+      <div class="col s12 m6 l6">
+        <p class="copyright">
+          &copy;SVCE ACM CHAPTERS. All Rights Reserved.
+        </p>
+      </div>
+      <div class="col s12 m6 l6">
+        <p class="copyright">
+          ACM SVCE is a leading student chapter in Sri Venkateswara College of Engineering with its core focus areas in the field of Datascience, Machine Learning and Natural Language Proccesing.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+  <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js'></script>
+  <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/rAF.js'></script>
+  <script src='https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/TweenLite.min.js'></script>
+
+  <script src="js/index.js"></script>
+
+  <script type="text/javascript">
+  </script>
+
+</body>
+
+</html>
